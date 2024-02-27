@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Inter;
+    src: url(./Inter-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: font;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+
+.card_header {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(228, 231, 233);
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.bi-list {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 13px;
+    cursor: pointer;
+    font-family: Inter;
+}
+
+.p_header {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.header_input {
+    width: 200px;
+    height: 56px;
+    width: 120px;
+    height: 50px;
+    margin-left: 100px;
+    background-color: rgb(228, 231, 233);
+    margin-top: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.bi-search {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -39px;
+}
+
+.input_text {
+    margin-left: 130px;
+    margin-top: -37px;
+    font-family: Inter;
+}
+
+.header_logo {
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -60px;
+}
+
+.header_one_icon {
+    position: absolute;
+    margin-left: 790px;
+    margin-top: -28px;
+}
+
+.header_two_icon {
+    position: absolute;
+    margin-left: 835px;
+    margin-top: -28px;
+}
+
+.header_three_icon {
+    position: absolute;
+    margin-left: 880px;
+    margin-top: -28px;
+}
+
+.box2 {
+    position: absolute;
+    margin-top: -33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 915px;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 50%;
+}
+.toxic{
+    margin-top: 25px;
+    width: 1101px;
+    height: 440px;
+    background-image: url(./base\ \(1\).png);
+}
+.main_logo{
+    position:relative;
+    margin-top: -200px;
+}
